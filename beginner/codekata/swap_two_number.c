@@ -2,11 +2,11 @@
 #include<string.h>
 int main()
 {
-	int x,y,temp;
+	int x,y,tem;
 	scanf("%d\t%d",&x,&y);
-	temp=x;
+	tem=x;
 	x=y;
-	y=temp;
+	y=tem;
 	printf("%d\t%d",x,y);
 	return 0;
 }
